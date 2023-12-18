@@ -11,7 +11,7 @@ export const Footer = () => {
             <footer className="bg-zinc-200 shadow dark:bg-black sm:h-40 h-34">
                 <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
                     <div className="sm:flex sm:items-center sm:justify-between">
-                        <a href="https://flowbite.com/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                        <a href="#" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
 
                             <span className="self-center text-xl font-semibold whitespace-nowrap bytescript pt-5 dark:text-white">ViualConnect</span>
                         </a>
