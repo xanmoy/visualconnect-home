@@ -34,9 +34,9 @@ export const siteConfig = {
 		}
 	],
 	links: {
-		start: "https://visualconnect.xanmoy.me/create",
+		start: "https://meeting.visualconnect.xanmoy.me/create",
 		twitter: "https://twitter.com/getnextui",
-		join: "https://visualconnect.xanmoy.me/join",
+		join: "https://meeting.visualconnect.xanmoy.me/join",
 		discord: "https://discord.gg/9b6yyZKmH4",
 		sponsor: "https://patreon.com/jrgarciadev"
 	},
