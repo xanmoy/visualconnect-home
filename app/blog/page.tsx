@@ -52,7 +52,7 @@ export default function BlogPage() {
 				<p className="text-black dark:text-white">{blogPost.content5}</p>
 				<h2 className="text-black dark:text-white text-3xl font-bold">{blogPost.subtitle6}</h2>
 				<p className="text-black dark:text-white">{blogPost.content6}</p>
-				<p className="text-black pt-5 dark:text-white text-xl">Thank you for choosing Visual Connect. Let's redefine online collaboration together.</p>
+				<p className="text-black pt-5 dark:text-white text-xl">Thank you for choosing Visual Connect. Let&apos;s redefine online collaboration together.</p>
 				<h2 className="text-black dark:text-white font-medium pt-6 title-font tracking-wider text-sm">Tanmoy Ganguly</h2>
 				<p className="text-gray-500">Founder and Developer</p>
 			

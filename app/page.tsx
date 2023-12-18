@@ -113,7 +113,7 @@ export default function Home() {
 							</div>
 							<div className="flex-grow">
 								<h2 className="text-black dark:text-white  text-lg title-font font-medium mb-3">Intuitive User Interface</h2>
-								<p className="leading-relaxed text-base">Navigate effortlessly through Visual Connect's
+								<p className="leading-relaxed text-base">Navigate effortlessly through Visual Connect&apos;s
 									user-friendly interface. Enjoy a seamless experience
 									from scheduling meetings to sharing documents, all with
 									a few clicks.                                </p>
@@ -156,7 +156,7 @@ export default function Home() {
 						</svg>
 						<p className="leading-relaxed text-lg text-black dark:text-white w-full">Greetings,
 
-							I am thrilled to welcome you to Visual Connect, where innovation meets seamless collaboration. As the founder and developer, my vision for this platform is to transcend conventional boundaries, offering high-quality video meetings, an intuitive user experience, and top-tier security. Visual Connect is not just a tool; it's a catalyst for innovation, empowering users across diverse domains.
+							I am thrilled to welcome you to Visual Connect, where innovation meets seamless collaboration. As the founder and developer, my vision for this platform is to transcend conventional boundaries, offering high-quality video meetings, an intuitive user experience, and top-tier security. Visual Connect is not just a tool; it&apos;s a catalyst for innovation, empowering users across diverse domains.
 
 							I invite you to explore the possibilities, experience the difference, and join us in reshaping the way we connect online. Thank you for choosing Visual Connect.</p>
 						<span className="inline-block h-1 w-10 rounded bg-blue-600 mt-8 mb-6"></span>
