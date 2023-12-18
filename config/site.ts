@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Next.js + NextUI",
-	description: "Make beautiful websites regardless of your design experience.",
+	name: "Visual Connect",
+	description: "Visual Connect is a cloud meeting platform that lets you connect with your friends, family and colleagues.",
 	navItems: [
 		{
 			label: "Home",
