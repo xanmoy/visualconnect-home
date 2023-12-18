@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Visual Connect",
+	name: "VisualConnect",
 	description: "Visual Connect is a cloud meeting platform that lets you connect with your friends, family and colleagues.",
 	navItems: [
 		{
