@@ -13,33 +13,33 @@ export default function Home() {
 	return (
 		<>
 			<section className="flex flex-col  md:mt-9 justify-left gap-4 py-8 md:py-10">
-				
+
 
 				{/* items-left */}
 				{/* <section className="text-black dark:text-white body-font"> */}
-					<div className="container mx-1 flex px-2 py-24 md:flex-row flex-col items-center">
-						<div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-left">
-							<h1 className={title()}>High Quality Video <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Meetings&nbsp;</span></h1>
-							<h1 className={title()}>
-								Now Free For Everyone
-							</h1>
-							<h2 className={subtitle({ class: "mt-4" })}>
-								Join VisualConnect and experience the future of seamless collaboration.
-							</h2>
-							
-						</div>
-						<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-							{/* <img className="className=-cover className=-center rounded" alt="hero" src="https://dummyimage.com/720x600"> */}
-							<Image
-								className="-cover className=-center rounded hidden md:block"
-								as={NextImage}
-								width={900}
-								height={800}
-								src="/meeting.jpg"
-								alt="NextUI hero Image"
-							/>
-						</div>
+				<div className="container mx-1 flex px-2 py-2 md:flex-row flex-col items-center">
+					<div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-left">
+						<h1 className={title()}>High Quality Video <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Meetings&nbsp;</span></h1>
+						<h1 className={title()}>
+							Now Free For Everyone
+						</h1>
+						<h2 className={subtitle({ class: "mt-4" })}>
+							Join VisualConnect and experience the future of seamless collaboration.
+						</h2>
+
 					</div>
+					<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+						{/* <img className="className=-cover className=-center rounded" alt="hero" src="https://dummyimage.com/720x600"> */}
+						<Image
+							className="-cover className=-center rounded hidden md:block"
+							as={NextImage}
+							width={900}
+							height={800}
+							src="/meeting.jpg"
+							alt="NextUI hero Image"
+						/>
+					</div>
+				</div>
 				{/* </section> */}
 
 				<div className="flex flex-col md:flex-row items-left gap-4">
@@ -47,7 +47,7 @@ export default function Home() {
 						isExternal
 						href={siteConfig.links.start}
 					// className={buttonStyles({ color: "primary", radius: "full", variant: "shadow", })}
-					><button className="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-unit-6 min-w-unit-24 h-unit-12 text-medium gap-unit-3 rounded-full [&>svg]:max-w-[theme(spacing.unit-8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none bg-primary text-primary-foreground data-[hover=true]:opacity-hover w-full md:w-auto">
+					><button className="bg-gradient-to-r from-violet-600 to-indigo-600 z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-unit-6 min-w-unit-24 h-unit-12 text-medium gap-unit-3 rounded-full [&>svg]:max-w-[theme(spacing.unit-8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none bg-primary text-primary-foreground data-[hover=true]:opacity-hover w-full md:w-auto">
 							Start a Meeting
 						</button>
 
@@ -59,7 +59,7 @@ export default function Home() {
 					>
 						<button className="tap-highlight-transparent no-underline hover:opacity-80 active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 border-medium px-unit-6 min-w-unit-24 h-unit-12 text-medium gap-unit-3 rounded-full [&>svg]:max-w-[theme(spacing.unit-8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none bg-transparent border-default text-foreground data-[hover=true]:opacity-hover w-full md:w-auto">Join a Meeting</button>
 
-						
+
 					</Link>
 				</div>
 
@@ -75,7 +75,7 @@ export default function Home() {
 				<div className="container px-5 py-24 mx-auto">
 					<div className="text-center mb-20">
 						<h1 className="sm:text-3xl text-2xl font-medium title-font text-black dark:text-white mb-4">Elevate your meetings with Visual Connect</h1>
-						<p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s"> |
+						<p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-slate-700 dark:text-slate-400">
 							Sign up now and unlock a world of
 							high-quality video collaboration. </p>
 						<div className="flex mt-6 justify-center">
@@ -92,7 +92,7 @@ export default function Home() {
 							</div>
 							<div className="flex-grow">
 								<h2 className="text-black dark:text-white text-lg title-font font-medium mb-3">Crystal-Clear Video Meetings</h2>
-								<p className="leading-relaxed text-base">Experience meetings in stunning high definition.
+								<p className="leading-relaxed text-base text-slate-700 dark:text-slate-400">Experience meetings in stunning high definition.
 									Visual Connect ensures sharp and clear video quality,
 									making every interaction feel like a face-to-face
 									conversation</p>
@@ -113,7 +113,7 @@ export default function Home() {
 							</div>
 							<div className="flex-grow">
 								<h2 className="text-black dark:text-white  text-lg title-font font-medium mb-3">Intuitive User Interface</h2>
-								<p className="leading-relaxed text-base">Navigate effortlessly through Visual Connect&apos;s
+								<p className="leading-relaxed text-base text-slate-700 dark:text-slate-400">Navigate effortlessly through Visual Connect&apos;s
 									user-friendly interface. Enjoy a seamless experience
 									from scheduling meetings to sharing documents, all with
 									a few clicks.                                </p>
@@ -133,7 +133,7 @@ export default function Home() {
 							</div>
 							<div className="flex-grow">
 								<h2 className="text-black dark:text-white text-lg title-font font-medium mb-3">Secure and Reliable Platform</h2>
-								<p className="leading-relaxed text-base">Trust in the security of your data. Visual Connect
+								<p className="leading-relaxed text-base text-slate-700 dark:text-slate-400">Trust in the security of your data. Visual Connect
 									employs top-notch encryption and security measures to
 									ensure your meetings are private and confidential</p>
 								{/* <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More

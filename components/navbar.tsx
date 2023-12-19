@@ -60,7 +60,7 @@ export const Navbar = () => {
 						<p className="font-bold text-inherit">VisualConnect</p>
 					</NextLink>
 				</NavbarBrand>
-				<ul className="hidden lg:flex gap-4 justify-center items-center justify-items-center text-center ml-3">
+				{/* <ul className="hidden lg:flex gap-4 justify-center items-center justify-items-center text-center ml-3">
 					{siteConfig.navItems.map((item) => (
 						<NavbarItem key={item.href}>
 							<NextLink
@@ -75,7 +75,7 @@ export const Navbar = () => {
 							</NextLink>
 						</NavbarItem>
 					))}
-				</ul>
+				</ul> */}
 			</NavbarContent>
 
 			<NavbarContent
@@ -114,12 +114,12 @@ export const Navbar = () => {
 					<GithubIcon className="text-default-500" />
 				</Link> */}
 				<ThemeSwitch />
-				<NavbarMenuToggle />
+				{/* <NavbarMenuToggle /> */}
 			</NavbarContent>
 
 			<NavbarMenu>
 				{/* {searchInput} */}
-				<div className="mx-4 mt-2 flex flex-col gap-2">
+				{/* <div className="mx-4 mt-2 flex flex-col gap-2">
 					{siteConfig.navMenuItems.map((item, index) => (
 						<NavbarMenuItem key={`${item}-${index}`}>
 							<Link
@@ -133,7 +133,7 @@ export const Navbar = () => {
 							</Link>
 						</NavbarMenuItem>
 					))}
-				</div>
+				</div> */}
 			</NavbarMenu>
 		</NextUINavbar>
 	);
